@@ -1,3 +1,5 @@
 import * as idLib from 'uuid'
 
-export default {v4: idLib.v4}
+const {v1, v3, v4, v5} = idLib
+
+export default {v1, v3, v4, v5}
