@@ -19,7 +19,7 @@
     "uuid": "^9.0.0"
   },
   "lint-staged": {
-    "*.{js, ts}": "eslint --cache --fix",
+    "*.{js, ts}": ["npm run format", "eslint --cache --fix"],
     "*.--write": "prettier --write"
   },
   "type": "module"
