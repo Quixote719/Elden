@@ -2,9 +2,11 @@
   "scripts": {
     "lint": "eslint . --fix --max-warnings=0",
     "format": "prettier . --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev": "ts-node --esm scripts/weapon.ts"
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.2",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "eslint": "^8.45.0",
     "eslint-config-prettier": "^8.8.0",
@@ -15,6 +17,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "uuid": "^9.0.0"
   },

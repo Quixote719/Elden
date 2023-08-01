@@ -1,5 +1,5 @@
 ## A general way to set up husky eslint prettier
-
+npx tsc --init
 npm init @eslint/config
 npm i prettier -D
 npm i -D eslint-config-prettier

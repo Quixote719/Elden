@@ -1,4 +1,4 @@
-import idGen from "./idGenerator.js";
+import idGen from "./idGenerator.ts";
 
 const { v4 } = idGen;
 const id1 = v4();
