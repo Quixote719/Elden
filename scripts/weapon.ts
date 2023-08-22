@@ -11,4 +11,7 @@ const getID = (param: number):string => {
     return IdArray[param % 4]
 }
 
-console.log(getID(2), getID(7));
+console.log(333, getID(333))
+export default getID
+
+

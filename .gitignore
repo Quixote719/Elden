@@ -1,2 +1,4 @@
 node_modules
+coverage
 .eslintcache
+test-report.xml
